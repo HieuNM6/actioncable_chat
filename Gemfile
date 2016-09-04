@@ -31,7 +31,8 @@ gem 'redis', '~> 3.0'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
-gem 'bootstrap', '~> 4.0.0.alpha3.1'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise-bootstrap-views'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'

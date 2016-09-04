@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'chatrooms/show'
+  mount ActionCable.server => '/cable'
 
+  resources :chatrooms, params: :slug
   devise_for :users
   root 'wellcome#index'
   resources :messages

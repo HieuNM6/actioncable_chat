@@ -15,4 +15,5 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_tree ./channels
+//= require chatrooms

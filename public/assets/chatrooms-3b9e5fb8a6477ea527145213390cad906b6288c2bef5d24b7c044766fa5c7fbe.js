@@ -1,0 +1,1 @@
+function submitNewMessage(){$("textarea#message_content").keydown(function(e){if(13==e.keyCode)return $('[data-send="message"]').click(),$('[data-textarea="message"]').val(" "),!1})}$(document).on("turbolinks:load",function(){submitNewMessage()});

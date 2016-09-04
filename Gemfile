@@ -43,6 +43,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+gem 'pry-rails', :group => :development
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
